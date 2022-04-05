@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "KloverCleanArchitecture"
+include ':app'
+include ':core_ui'
+include ':melanoma_detector'
+include ':melanoma_detector:data'
+include ':melanoma_detector:domain'
+include ':melanoma_detector:presentation'
+include ':navigation'
+include ':core'

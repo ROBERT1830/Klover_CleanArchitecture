@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item
+        name="cancer_records_flow" type="id"/>
+    <item name="radiation_flow" type="id"/>
+    <item name="maps_flow" type="id"/>
+
+</resources>

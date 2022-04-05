@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.robertconstantindinescu.presentation">
+
+
+    <application>
+        <activity
+            android:name=".detection_screen.DetectorActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

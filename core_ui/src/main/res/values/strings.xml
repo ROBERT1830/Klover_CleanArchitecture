@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KloverCleanArchitecture</string>
+
+<!--    Bottom Navigation-->
+    <string name="cancer_records">Records</string>
+    <string name="radiation">Radiation</string>
+    <string name="maps">Maps</string>
+
+<!--    Detector activity-->
+    <string name="save_result">Save Result</string>
+
+
+
+<!--    Melanoma Record Row-->
+    <string name="record">Record</string>
+</resources>

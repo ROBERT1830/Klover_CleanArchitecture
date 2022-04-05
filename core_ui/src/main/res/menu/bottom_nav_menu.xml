@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cancer_data_flow"
+        android:icon="@drawable/ic_records"
+        android:title="@string/cancer_records" />
+
+    <item
+        android:id="@+id/radiation_flow"
+        android:icon="@drawable/ic_radiation"
+        android:title="@string/radiation"/>
+
+    <item
+        android:id="@+id/google_maps_flow"
+        android:icon="@drawable/ic_maps"
+        android:title="@string/maps"/>
+</menu>

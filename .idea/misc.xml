@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="core_ui/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.106" />
+        <entry key="core_ui/src/main/res/drawable/ic_add.xml" value="0.216" />
+        <entry key="core_ui/src/main/res/drawable/ic_camera.xml" value="0.2925" />
+        <entry key="core_ui/src/main/res/drawable/ic_gallery.xml" value="0.228" />
+        <entry key="core_ui/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="core_ui/src/main/res/drawable/ic_maps.xml" value="0.1" />
+        <entry key="core_ui/src/main/res/drawable/map_background.xml" value="0.2925" />
+        <entry key="core_ui/src/main/res/layout/activity_main.xml" value="0.33469202898550726" />
+        <entry key="core_ui/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1035" />
+        <entry key="core_ui/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="melanoma_detector/presentation/src/main/res/drawable/bg_iv.xml" value="0.1405" />
+        <entry key="melanoma_detector/presentation/src/main/res/drawable/bg_linear_layout.xml" value="0.343" />
+        <entry key="melanoma_detector/presentation/src/main/res/layout/activity_detector.xml" value="0.3657957244655582" />
+        <entry key="melanoma_detector/presentation/src/main/res/layout/dialog_body_location.xml" value="0.3917572463768116" />
+        <entry key="melanoma_detector/presentation/src/main/res/layout/fragment_melanoma_records.xml" value="0.4015444015444015" />
+        <entry key="melanoma_detector/presentation/src/main/res/layout/fragment_melanoma_records_row.xml" value="0.375" />
+        <entry key="melanoma_detector/presentation/src/main/res/menu/bottom_nav_menu.xml" value="0.34375" />
+        <entry key="melanoma_detector/presentation/src/main/res/menu/records_screen_contextual_menu.xml" value="0.5911458333333334" />
+        <entry key="melanoma_detector/presentation/src/main/res/menu/records_screen_delete_all_records.xml" value="0.537962962962963" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

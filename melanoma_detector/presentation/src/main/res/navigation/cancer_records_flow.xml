@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cancer_records_flow"
+    app:startDestination="@id/melanomaRecords">
+
+    <fragment
+        android:id="@+id/melanomaRecords"
+        android:name="com.robertconstantindinescu.presentation.records_screen.MelanomaRecordsFragment"
+        android:label="fragment_melanoma_records"
+        tools:layout="@layout/fragment_melanoma_records" >
+        <action
+            android:id="@+id/action_melanomaRecords_to_detectorActivity"
+            app:destination="@id/detectorActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/detectorActivity"
+        android:name="com.robertconstantindinescu.presentation.detection_screen.DetectorActivity"
+        android:label="activity_detector"
+        tools:layout="@layout/activity_detector" />
+</navigation>
+

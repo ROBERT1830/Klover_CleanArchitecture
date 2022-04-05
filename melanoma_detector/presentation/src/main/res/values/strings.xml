@@ -1,0 +1,16 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buttonTakePhoto">Take Photo</string>
+    <string name="buttonSelectPhoto">Gallery</string>
+    <string name="descriptionImage">melanoma_photo</string>
+    <string name="buttonDiagnose">get Result</string>
+    <string name="defaultImage">Result</string>
+    <string name="itemSelected">% Item Selected</string>
+    <string name="itemsSelected">% Items Selected</string>
+    <string name="delete_cancer_record">Delete Cancer Record</string>
+    <string name="melanomaRecordDeleted">Melanoma Record Has Been Deleted</string>
+    <string name="allMelanomaRecordDeleted">All Melanoma Records Have Been Deleted</string>
+    <string name="no_cancer_records">No Records Available</string>
+    <string name="delete_all">Delete All Records</string>
+</resources>

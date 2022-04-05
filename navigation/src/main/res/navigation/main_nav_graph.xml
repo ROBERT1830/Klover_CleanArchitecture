@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/cancer_records_flow"
+    android:id="@+id/main_nav_graph">
+
+    <include app:graph="@navigation/cancer_records_flow"/>
+    <include app:graph="@navigation/radiation_flow"/>
+    <include app:graph="@navigation/maps_flow"/>
+
+    <action
+        android:id="@+id/action_global_radiation_flow"
+        app:destination="@id/radiation_flow"
+        app:popUpTo="@id/main_nav_graph" />
+    <action
+        android:id="@+id/action_global_maps_flow2"
+        app:destination="@id/maps_flow"
+        app:popUpTo="@id/main_nav_graph" />
+    <action
+        android:id="@+id/action_global_cancer_records_flow"
+        app:destination="@id/cancer_records_flow"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popUpTo="@id/main_nav_graph" />
+
+
+</navigation>
